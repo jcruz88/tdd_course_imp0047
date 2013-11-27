@@ -1,8 +1,60 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CBAAF6D5-341F-471E-9D08-71CEC35788CA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{7E7935D8-3854-484E-AD74-9DAB62FE9D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Tests", "FizzBuzz.Tests\FizzBuzz.Tests.csproj", "{0F98F792-8811-43AE-A763-90CA0F4481C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{9F18FAF9-131C-47DE-A3EE-B3CF77726984}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kata2", "Kata2", "{A12BA102-493D-4941-8371-EABFF84441E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanConverted", "RomanConverted\RomanConverted.csproj", "{57EE9F15-D1DB-4B96-85A7-1663CA232C4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kata1", "Kata1", "{E32CAF37-95CC-4C5A-98BB-D633296A9154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanConverted Tests", "RomanConverted Tests\RomanConverted Tests.csproj", "{9496C017-081B-4A1C-BF3D-FA3B959AEC3C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E7935D8-3854-484E-AD74-9DAB62FE9D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7935D8-3854-484E-AD74-9DAB62FE9D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7935D8-3854-484E-AD74-9DAB62FE9D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7935D8-3854-484E-AD74-9DAB62FE9D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F98F792-8811-43AE-A763-90CA0F4481C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F98F792-8811-43AE-A763-90CA0F4481C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F98F792-8811-43AE-A763-90CA0F4481C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F98F792-8811-43AE-A763-90CA0F4481C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F18FAF9-131C-47DE-A3EE-B3CF77726984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F18FAF9-131C-47DE-A3EE-B3CF77726984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F18FAF9-131C-47DE-A3EE-B3CF77726984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F18FAF9-131C-47DE-A3EE-B3CF77726984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57EE9F15-D1DB-4B96-85A7-1663CA232C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57EE9F15-D1DB-4B96-85A7-1663CA232C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57EE9F15-D1DB-4B96-85A7-1663CA232C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57EE9F15-D1DB-4B96-85A7-1663CA232C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9496C017-081B-4A1C-BF3D-FA3B959AEC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9496C017-081B-4A1C-BF3D-FA3B959AEC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9496C017-081B-4A1C-BF3D-FA3B959AEC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9496C017-081B-4A1C-BF3D-FA3B959AEC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57EE9F15-D1DB-4B96-85A7-1663CA232C4A} = {A12BA102-493D-4941-8371-EABFF84441E3}
+		{9496C017-081B-4A1C-BF3D-FA3B959AEC3C} = {A12BA102-493D-4941-8371-EABFF84441E3}
+		{9F18FAF9-131C-47DE-A3EE-B3CF77726984} = {E32CAF37-95CC-4C5A-98BB-D633296A9154}
+		{7E7935D8-3854-484E-AD74-9DAB62FE9D82} = {E32CAF37-95CC-4C5A-98BB-D633296A9154}
+		{0F98F792-8811-43AE-A763-90CA0F4481C0} = {E32CAF37-95CC-4C5A-98BB-D633296A9154}
 	EndGlobalSection
 EndGlobal
